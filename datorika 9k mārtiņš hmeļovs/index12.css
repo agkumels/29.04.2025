@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column; /* Salieciet elementus vertikāli */
+    justify-content: center; /* Centrēt vertikāli */
+    align-items: center;    /* Centrēt horizontāli */
+    min-height: 100vh;      /* Pārliecinieties, vai korpuss aizņem vismaz visu skata loga augstumu */
+    margin: 0;            /* Noņemt noklusējuma pamatteksta malu */
+  }
+  
+  nav {
+    
+/* Ja nepieciešams, šeit varat veidot navigācijas stilu */
+    margin-bottom: 20px; /* Pievienojiet vietu zem navigācijas elementa */
+  }
+  
+  div {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80%; /* Pielāgojiet veidlapas konteinera platumu pēc vajadzības */
+    max-width: 600px; /* Iestatīt maksimālo platumu */
+    text-align: left;  /* Izlīdzināt tekstu veidlapā pa kreisi */
+  }
+  
+  form {
+
+/* Veidlapas elementi pārmantos teksta līdzināšanu: pa kreisi no div */
+  }
+  
+  h1, h2 {
+    text-align: center; /* Centrēt virsrakstus */
+    margin-bottom: 10px;/* Pievienojiet atstarpi zem virsrakstiem */
+  }

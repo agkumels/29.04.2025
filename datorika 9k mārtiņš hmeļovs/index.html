@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Krāsu pārslēgšana visam ekrānam</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 40px;
+      font-family: sans-serif;
+      background-color: lightgray;
+      transition: background-color 0.5s ease; /* animēta pāreja */
+    }
+
+    button {
+      margin: 10px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <button onclick="set8green()">spricis</button>
+  <button onclick="set8purple()">ogijs</button>
+  <button onclick="set8red()">mārtiņš berziņš</button>
+  <button onclick="set8black()">dzintars</button>
+  <button onclick="defaultSet8Color()">reset</button>
+
+  <script>
+    function set8green() {
+      document.body.style.backgroundColor = "green";
+    }
+
+    function set8purple() {
+      document.body.style.backgroundColor = "purple";
+    }
+
+    function set8red() {
+      document.body.style.backgroundColor = "red";
+    }
+
+    function set8black() {
+      document.body.style.backgroundColor = "black";
+    }
+
+    function defaultSet8Color() {
+      document.body.style.backgroundColor = "lightgray";
+    }
+  </script>
+
+</body>
+</html>

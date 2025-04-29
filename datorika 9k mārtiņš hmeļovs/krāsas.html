@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <title>Fona krāsas maiņa</title>
+
+    <style>
+        body {
+            text-align: center;
+            padding-top: 100px;
+            font-family: Arial, sans-serif;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .green { background-color: rgb(255, 166, 0); color: white; }
+        .red { background-color: rgb(255, 0, 234); color: white; }
+        .blue { background-color: rgb(235, 0, 0); color: white; }
+        .yellow { background-color: rgb(131, 0, 253); color: black; }
+        .reset { background-color: rgb(0, 0, 0); color: white; }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index (5).html">Sākums</a></li>
+            <li><a href="egle.html">egle</a>
+            <!-- First Tier Drop Down -->
+        <ul>
+                <li><a href="#">Themes</a></li>
+                <li><a href="#">Plugins</a></li>
+                <li><a href="#">Tutorials</a></li>
+        </ul>        
+            </li>
+            <li><a href="krāsas.html">pogas</a>
+            <!-- First Tier Drop Down -->
+            <ul>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Links</a></li>
+                <li><a href="#">Tutorials</a>
+            	<!-- Second Tier Drop Down -->
+                <ul>
+                    <li><a href="#">HTML/CSS</a></li>
+                    <li><a href="#">jQuery</a></li>
+                    <li><a href="#">Other</a>
+                        <!-- Third Tier Drop Down -->
+                        <ul>
+                            <li><a href="#">Stuff</a></li>
+                            <li><a href="#">Things</a></li>
+                            <li><a href="#">Other Stuff</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                </li>
+            </ul>
+            </li>
+            <li><a href="25.03.2025.html">Javascript viktorina</a></li>
+            <li><a href="property.html">krāsainās lapas</a></li>
+            <li><a href="25.02.2025.html">contact</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+    <h1>Nospied pogu, lai mainītu fona krāsu</h1>
+
+    <button class="green" onclick="changeBackground('orange')">oranža</button>
+    <button class="red" onclick="changeBackground('pink')">rozā</button>
+    <button class="blue" onclick="changeBackground('red')">sarkana</button>
+    <button class="yellow" onclick="changeBackground('purple')">violeta</button>
+    <button class="reset" onclick="changeBackground('black')">Atiestatīt</button>
+
+    <script>
+        function changeBackground(color) {
+            document.body.style.backgroundColor = color;
+        }
+    </script>
+
+</body>
+</html>

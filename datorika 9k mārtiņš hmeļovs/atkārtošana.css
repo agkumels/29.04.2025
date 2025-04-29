@@ -1,0 +1,27 @@
+.ATKARTOŠANA {
+    background-color: chocolate;
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    border-color: black;
+    border: 2px solid black;
+    border-radius: 100px;
+}
+.lllllll {
+    background-color: burlywood;
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    border-color: black;
+    border: 2px solid black;
+    border-radius: 100px;
+}
+.myDIV {
+    background-color: chocolate;
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    border-color: black;
+    border: 2px solid black; 
+    border-radius: 100px;
+}
