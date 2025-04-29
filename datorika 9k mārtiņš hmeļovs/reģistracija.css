@@ -1,0 +1,35 @@
+nav, nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    background-color: #ff5100;
+    width: 100%;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+nav ul li {
+    margin-right: 10px;
+}
+
+
+nav ul li a {
+    display: block;
+    padding: 10px 10px;
+    color: white;
+    text-decoration: none;
+}
+
+
+nav ul li a:hover {
+    background-color: #555;
+}
